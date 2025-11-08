@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Virendra Randive | Professional Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(120deg,#232526,#414345);
+      color: #e0e0e0;
+      font-family: 'Montserrat', sans-serif;
+      margin: 0; padding: 0;
+    }
+    .container { max-width: 1100px; margin: auto; padding: 32px; }
+    h1, h2 { color: #5eead4; }
+    .card {
+      background: #282828; border-radius: 12px;
+      box-shadow: 0 4px 24px rgba(45,237,246,0.2);
+      margin-bottom: 28px; padding: 28px;
+    }
+    .timeline { border-left: 2px solid #5eead4; margin-left: 12px; padding-left: 18px;}
+    .skills-list { display: flex; flex-wrap: wrap;}
+    .skill { background:#353b48; color:#5eead4; border-radius:6px; margin:6px; padding:6px 16px;}
+    .contact-info { font-size:1.12em;}
+    a.cta { background:#00adb5; color:#fff; padding:12px 20px; border-radius:8px; text-decoration:none; font-weight:bold; display:inline-block; margin-top:10px;}
+    .portfolio-brands img { height:40px; margin-right:16px; }
+    .showcase-list { display: flex; flex-wrap: wrap; gap: 12px; }
+    .showcase-item { background: #353b48; border-radius: 6px; padding: 12px; flex: 1 1 200px;}
+    footer { text-align:center; margin:38px auto 18px; font-size:1em; color:#5eead4; }
+    @media (max-width:600px) {
+      .container { padding:12px;}
+      .showcase-list { flex-direction: column;}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Virendra Randive | Professional Portfolio</h1>
+    <div class="card">
+      <h2>About Me</h2>
+      <p>
+        Distribution Specialist, Investment Advisor, Entrepreneur <br>
+        <b>Over 10 years of expertise</b> in distribution, investment advisory, and business management across multiple sectors.
+      </p>
+    </div>
+    <div class="card">
+      <h2>Professional Summary</h2>
+      <p>
+        I bring over 10 years of comprehensive experience in distribution management, investment advisory, and entrepreneurial ventures. My expertise spans FMCG distribution, custom manufacturing, corporate services, and wealth management. Skilled in local market trends, corporate operations, and team leadership—I have built and scaled multiple ventures with a focus on client relationships and excellence.
+      </p>
+    </div>
+    <div class="card">
+      <h2>Career Journey</h2>
+      <div class="timeline">
+        <strong>2013 - Present:</strong> Proprietor, Anita Distributors<br>Authorised distributor for BISLERI, HALDIRAM, RC COLA, KINGFISHER WATER. Corporate gifts & office diaries.<br><br>
+        <strong>2018 - Present:</strong> Proprietor, Laxmi Jute House<br>Custom eco-friendly jute bags for corporates, banks, schools, hospitals, and more.<br><br>
+        <strong>2018 - Present:</strong> Corporate Gifting Specialist<br>Customized Diwali gifts, festival hampers, employee/client recognition programs.<br><br>
+        <strong>Current:</strong> Partner, Tattva Investments<br>Portfolio management and wealth creation.<br>
+        <strong>Current:</strong> Certified Insurance Agent, Aditya Birla<br>
+        <strong>Current:</strong> Agent, Ebix World Money (Forex solutions).
+      </div>
+    </div>
+    <div class="card">
+      <h2>Services</h2>
+      <div class="showcase-list">
+        <div class="showcase-item">
+          <strong>Anita Distributors</strong><br>
+          Authorised premium FMCG brands. Wide Distribution Network & Quality Assurance.
+        </div>
+        <div class="showcase-item">
+          <strong>Laxmi Jute House</strong><br>
+          Custom eco-friendly jute bags, sustainable branding, bulk orders.
+        </div>
+        <div class="showcase-item">
+          <strong>Corporate Services</strong><br>
+          Customized gifting for festivals, employee recognition, client appreciation.
+        </div>
+        <div class="showcase-item">
+          <strong>Insurance Advisory</strong><br>
+          Aditya Birla agent—insurance & financial planning.
+        </div>
+        <div class="showcase-item">
+          <strong>Tattva Investments</strong><br>
+          Portfolio management & investment growth.
+        </div>
+        <div class="showcase-item">
+          <strong>Ebix World Money</strong><br>
+          Currency exchange, international transfers, competitive rates.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Corporate Gifting Portfolio</h2>
+      <div class="portfolio-brands">
+        <img src="https://www.bisleri.com/images/bisleri-logo.svg" alt="Bisleri">
+        <img src="https://www.haldiram.com/assets/img/Haldiram-logo.png" alt="Haldiram">
+        <!-- add more brand logos -->
+      </div>
+      <div style="margin-top:10px;">
+        Premier gifting solutions for Diwali, festivals, milestones, and corporate events.<br>
+        Eco-friendly, customizable, and memorable experiences for every occasion.<br>
+        <a class="cta" href="#">Download Gifting Portfolio PDF</a>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Skills & Competencies</h2>
+      <div class="skills-list">
+        <span class="skill">Communication (85)</span>
+        <span class="skill">Teamwork (80)</span>
+        <span class="skill">Leadership (90)</span>
+        <span class="skill">Business Development (88)</span>
+        <span class="skill">Market Analysis (82)</span>
+        <span class="skill">Client Relations (92)</span>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Education</h2>
+      <p>
+        MBA (Master of Business Administration), IIPM Pune, 2011-2013<br>
+        BBA (Bachelor of Business Administration), IIPM Pune, 2008-2011
+      </p>
+    </div>
+    <div class="card">
+      <h2>Personal Interests</h2>
+      <p>Reading, Video Games, Cooking</p>
+    </div>
+    <div class="card">
+      <h2>Contact</h2>
+      <div class="contact-info">
+        <strong>Email:</strong> virendra.randive1121@gmail.com<br>
+        <strong>Phone:</strong> +91 98233 94592<br>
+        <strong>Location:</strong> Shop no 17, Rajiv Gandhi shopping complex, Aurangabad
+      </div>
+      <a class="cta" href="mailto:virendra.randive1121@gmail.com">Send a Message</a>
+    </div>
+    <footer>
+      &copy; 2025 Virendra Randive. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
